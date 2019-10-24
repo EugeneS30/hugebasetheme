@@ -1,0 +1,72 @@
+/*
+ Theme Name: HugeBaseTheme
+ Author: Eugene Shragovich
+ Author URI: http://www.eugeniousoft.com
+ Description: Base Theme
+ Version: 0.1
+*/
+
+body{
+  font-family: Arial;
+  font-size: 15px;
+  color: #333;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7em;
+}
+
+a{
+  color: #333;
+}
+
+header{
+  background: #393939;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+footer{
+  background: #393939;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+header h1{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.container{
+  width: 1020px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.main{
+  margin: 15px 0;
+}
+
+article.post{
+  border-bottom: 1px #ccc solid;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+article.post a.button{
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.meta {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+}
